@@ -44,4 +44,14 @@ Each row represents one athlete's result within a specific race and category (no
 - Pro categories show the widest spread in competitiveness: Beijing's Pro fields are notably deeper (flatter finish-time curve) than Bangkok's or Chiba's, particularly in the women's Pro categories, which show sharp late-field time spikes.
 - Despite differences in pace and home dominance, the overall *shape* of the rank-vs-time curve (fast top tier → flatter middle → slight late-race increase) is broadly consistent across cities and categories.
 
-## Requirements
+## Usage
+
+```bash
+pip install pandas matplotlib
+jupyter notebook notebook.ipynb
+```
+
+## Notes / limitations
+
+- Dataset is limited to the top 100 overall finishers per category, so it does not capture full field size or participation rates.
+- Some very high back-of-pack finish times (e.g. in Pro Women/Pro Doubles Women) should be sanity-checked against the source results, as they may reflect time-cap or DNF-adjacent entries rather than typical race pace.
