@@ -48,7 +48,7 @@ Each row represents one athlete's result within a specific race and category (no
 
 ```bash
 pip install pandas matplotlib
-jupyter notebook notebook.ipynb
+jupyter notebook hyrox_comparison.ipynb
 ```
 
 ## Notes / limitations
