@@ -5,7 +5,7 @@ Exploratory analysis of HYROX race results, comparing the top 100 overall finish
 ## Contents
 
 - `hyrox_result.csv` — raw dataset of top 100 overall finishers per race category, pulled from official HYROX results for each event.
-- `notebook.ipynb` — analysis notebook containing data exploration, custom functions, and visualizations.
+- `hyrox_comparison.ipynb` — analysis notebook containing data exploration, custom functions, and visualizations.
 
 ## Dataset
 
@@ -22,7 +22,7 @@ Each row represents one athlete's result within a specific race and category (no
 | `finish_time`   | Finish time, formatted `H:MM:SS`                                      |
 | `nationality`   | Athlete's nationality, as an IOC-style 3-letter code (e.g. `CHN`)      |
 
-**Note:** For doubles categories, nationality reflects one representative nationality per team, not both partners individually.
+**Note:** For doubles categories, pairs with different nationalities will have slash "/" (e.g. CHN/JPN)
 
 ## Categories covered
 
